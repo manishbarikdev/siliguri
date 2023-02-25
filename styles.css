@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url("https://www.holidify.com/images/compressed/1098.jpg");
+    background-size: cover;
+    height: 200px;
+    margin: 0;
+}
+
+.hero p {
+    margin: 10px;
+    background: #3772ff;
+    padding: 5px 10px;
+    color: white;
+}
+
+.section {
+    background: #b5dda4;
+    padding: 10px;
+    
+    text-align: center;
+}
+
+.section h2 {
+    margin: 20px;
+}
+
+.section-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-card h3 {
+    margin: 10px;
+}
+
+.section-card p {
+    margin: 10px;
+}
+
+.places {
+    width: calc(33.33%);
+}
+
+.places img {
+    width: 300px;
+    clip-path: circle();
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    width: 400px;
+    background: #ef709d;
+    padding: 20px;
+    border-radius: 6px;
+    border-bottom: solid 4px #3772ff;
+}
+
+.card h2 {
+    margin: 10px;
+}
+
+.card p {
+    margin:10px;
+    text-align: center;
+};
