@@ -89,3 +89,10 @@ body {
     margin: 10px;
     text-align: center;
 }
+
+footer {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 10px;
+    color: #6c757d;
+}
